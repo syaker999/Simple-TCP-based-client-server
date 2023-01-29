@@ -21,7 +21,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print(f"Socket created")
 
 # define port
-port = 8888
+port = 8080
 
 # bind socket to port
 s.bind(("0.0.0.0", port))
