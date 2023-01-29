@@ -1,7 +1,7 @@
 import socket
 
 c = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-c.connect(("192.168.85.132", 8888))
+c.connect(("192.168.85.132", 8080))
 
 #Compose a string from user input
 request=input("Enter a message to send to the server: ")
